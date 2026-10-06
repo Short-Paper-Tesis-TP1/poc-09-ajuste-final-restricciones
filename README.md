@@ -47,6 +47,7 @@ vs A2 = diferencia de AUC-ROC promedio (validación cruzada de 5 particiones) fr
 ## Decisión de diseño
 - La base es A2: restricción monotónica solo en las 4 variables con respaldo de la SBS. Restringir la razón monto/ingreso reducía la discriminación.
 - Entra B1 (años de trabajo o negocio), lo que da 9 variables.
+- B2 (años de historial crediticio), B3 (rechazos) y B5 (solicitudes en 12 meses) superan la regla numérica, pero se excluyen: no tienen sustento en un estudio Q1-Q2 de acceso abierto, y rechazos y solicitudes provienen del historial de la propia Home Credit, que la usuaria no puede declarar de la misma forma.
 - El plazo se verificó aparte, en la PoC 10.
 
 ## Archivos
