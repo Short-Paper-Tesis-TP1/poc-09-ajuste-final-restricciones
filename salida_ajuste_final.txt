@@ -1,0 +1,20 @@
+
+Mujeres: 202,448 | emprendedoras: 62,091 | 91 s
+
+Configuración                              AUC todas   vs A2  AUC empr   vs A2 preg. nuevas
+A1 BASE, 5 restricciones (actual)             0.6422 -0.0061    0.6291 -0.0090            0
+A2 BASE, solo 4 restricciones SBS             0.6483 +0.0000    0.6381 +0.0000            0
+A3 BASE, sin restricciones                    0.6562 +0.0079    0.6471 +0.0090            0
+B1 SBS + años trabajo/negocio                 0.6580 +0.0097    0.6486 +0.0105            1
+B2 SBS + años historial crediticio            0.6607 +0.0124    0.6479 +0.0098            1
+B3 SBS + rechazos                             0.6577 +0.0093    0.6462 +0.0081            1
+B4 SBS + plazo (sin pregunta nueva)           0.6952 +0.0469    0.6895 +0.0514            0
+B5 SBS + solicitudes último año               0.6537 +0.0054    0.6431 +0.0050            1
+C1 SBS + trabajo + historial                  0.6676 +0.0192    0.6563 +0.0182            2
+C2 SBS + trabajo + historial + plazo          0.7050 +0.0567    0.6965 +0.0584            2
+C3 SBS + trabajo + historial + rechazos       0.6760 +0.0277    0.6620 +0.0239            3
+C4 SBS + las cuatro                           0.7090 +0.0607    0.6986 +0.0605            3
+C5 SBS + trabajo + plazo + solicitudes        0.7011 +0.0528    0.6938 +0.0557            2
+C6 SBS + trabajo + plazo                      0.6994 +0.0510    0.6928 +0.0547            1
+
+Guardado: resultado_poc_ajuste_final.json

@@ -1,0 +1,342 @@
+{
+  "A1 BASE, 5 restricciones (actual)": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso"
+    ],
+    "auc_todas": 0.6422395057594263,
+    "auc_emprendedoras": 0.6290783829493021,
+    "vs_A2_todas": -0.00607891422504836,
+    "vs_A2_emprendedoras": -0.009013916263149735,
+    "preguntas_nuevas": 0
+  },
+  "A2 BASE, solo 4 restricciones SBS": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6483184199844747,
+    "auc_emprendedoras": 0.6380922992124518,
+    "vs_A2_todas": 0.0,
+    "vs_A2_emprendedoras": 0.0,
+    "preguntas_nuevas": 0
+  },
+  "A3 BASE, sin restricciones": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos"
+    ],
+    "restringidas": [],
+    "auc_todas": 0.6562356152770852,
+    "auc_emprendedoras": 0.6470936391247445,
+    "vs_A2_todas": 0.00791719529261048,
+    "vs_A2_emprendedoras": 0.009001339912292683,
+    "preguntas_nuevas": 0
+  },
+  "B1 SBS + años trabajo/negocio": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6579967667861051,
+    "auc_emprendedoras": 0.648556173173753,
+    "vs_A2_todas": 0.009678346801630378,
+    "vs_A2_emprendedoras": 0.010463873961301218,
+    "preguntas_nuevas": 1
+  },
+  "B2 SBS + años historial crediticio": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_historial_credito"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6606810790824241,
+    "auc_emprendedoras": 0.6479294459070507,
+    "vs_A2_todas": 0.012362659097949424,
+    "vs_A2_emprendedoras": 0.009837146694598897,
+    "preguntas_nuevas": 1
+  },
+  "B3 SBS + rechazos": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "n_rechazos"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6576659115787358,
+    "auc_emprendedoras": 0.6461522478183578,
+    "vs_A2_todas": 0.00934749159426107,
+    "vs_A2_emprendedoras": 0.008059948605905976,
+    "preguntas_nuevas": 1
+  },
+  "B4 SBS + plazo (sin pregunta nueva)": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "plazo_meses"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6951975013773415,
+    "auc_emprendedoras": 0.6895410261509751,
+    "vs_A2_todas": 0.046879081392866784,
+    "vs_A2_emprendedoras": 0.051448726938523315,
+    "preguntas_nuevas": 0
+  },
+  "B5 SBS + solicitudes último año": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "n_solicitudes_12m"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.653742986907397,
+    "auc_emprendedoras": 0.6431303184686745,
+    "vs_A2_todas": 0.005424566922922258,
+    "vs_A2_emprendedoras": 0.005038019256222714,
+    "preguntas_nuevas": 1
+  },
+  "C1 SBS + trabajo + historial": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "anios_historial_credito"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6675634199703386,
+    "auc_emprendedoras": 0.6563180599095852,
+    "vs_A2_todas": 0.01924499998586393,
+    "vs_A2_emprendedoras": 0.018225760697133442,
+    "preguntas_nuevas": 2
+  },
+  "C2 SBS + trabajo + historial + plazo": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "anios_historial_credito",
+      "plazo_meses"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.7050185414087838,
+    "auc_emprendedoras": 0.6965175964055385,
+    "vs_A2_todas": 0.056700121424309136,
+    "vs_A2_emprendedoras": 0.058425297193086645,
+    "preguntas_nuevas": 2
+  },
+  "C3 SBS + trabajo + historial + rechazos": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "anios_historial_credito",
+      "n_rechazos"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6760431829427949,
+    "auc_emprendedoras": 0.6619546407663238,
+    "vs_A2_todas": 0.02772476295832016,
+    "vs_A2_emprendedoras": 0.023862341553872013,
+    "preguntas_nuevas": 3
+  },
+  "C4 SBS + las cuatro": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "anios_historial_credito",
+      "n_rechazos",
+      "plazo_meses"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.7089891301554464,
+    "auc_emprendedoras": 0.698580032019281,
+    "vs_A2_todas": 0.0606707101709717,
+    "vs_A2_emprendedoras": 0.060487732806829175,
+    "preguntas_nuevas": 3
+  },
+  "C5 SBS + trabajo + plazo + solicitudes": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "plazo_meses",
+      "n_solicitudes_12m"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.7011377356636797,
+    "auc_emprendedoras": 0.6938076399047013,
+    "vs_A2_todas": 0.05281931567920495,
+    "vs_A2_emprendedoras": 0.05571534069224948,
+    "preguntas_nuevas": 2
+  },
+  "C6 SBS + trabajo + plazo": {
+    "variables": [
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso",
+      "ratio_monto_ingreso",
+      "n_otros_creditos",
+      "atraso_historial",
+      "edad",
+      "nivel_educativo",
+      "n_hijos",
+      "anios_trabajo_negocio",
+      "plazo_meses"
+    ],
+    "restringidas": [
+      "atraso_historial",
+      "n_otros_creditos",
+      "ratio_cuota_ingreso",
+      "ratio_deuda_ingreso"
+    ],
+    "auc_todas": 0.6993579041129406,
+    "auc_emprendedoras": 0.6927853938740405,
+    "vs_A2_todas": 0.05103948412846593,
+    "vs_A2_emprendedoras": 0.05469309466158867,
+    "preguntas_nuevas": 1
+  }
+}
